@@ -38,7 +38,7 @@ class Config:
         # Port pour le serveur - utilise PORT env ou 5000 par défaut (Replit)
         self.PORT = int(os.getenv('PORT') or 5000)
         # Canal de destination pour les prédictions
-        self.PREDICTION_CHANNEL_ID = -1002875505624
+        self.PREDICTION_CHANNEL_ID = -1003853896752
         self.DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
 
         # Validate configuration
